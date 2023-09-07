@@ -1,0 +1,33 @@
+.app-sidebar__user-avatar{
+    width: 60px;
+    background: silver;
+    padding: 1px;
+}
+
+.app-sidebar__toggle{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.app-sidebar__toggle::before{
+    display: none;
+}
+
+.headerRegister, .header-primary{
+    background: #45b39d ;
+    color: #FFF;
+}
+.headerUpdate{
+    background: #5DADE2;
+    color: #FFF;
+}
+
+.notBlock{
+    display: none;
+}
